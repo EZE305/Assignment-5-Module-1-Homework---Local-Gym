@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: darkgoldenrod;
+}
+
+.row{
+    background: rgb(135,163,122);
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+#vertical-rock-wall{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height:50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+     
+}
+
+.btn1:hover{
+    background-color: brown;
+    border: 1px solid;
+    color: black;
+
+}
+
+body { 
+    padding-top: 105px; 
+}
+
+.rock-logo{
+    background: none;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 20px;
+}

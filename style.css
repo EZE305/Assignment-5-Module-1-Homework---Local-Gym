@@ -1,0 +1,36 @@
+.hero{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.hero__video{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero__overlay{
+    position: absolute;
+    left: 0;    
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+}
+nav{
+    background-color:rgb(135,163,122) ;
+}
+
+.hero__content{
+    z-index: 1;
+}
+
